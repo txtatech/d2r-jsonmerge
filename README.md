@@ -1,5 +1,9 @@
 # d2r-jsonmerge
-Merge Diablo II: Resurrected JSON files or copy their contents as plain text from a directory (including subdirectories) into a single output file
+Merge Diablo II: Resurrected JSON files or copy their contents as plain text from a directory (including subdirectories) into a single output file.
+
+**Use case:**
+
+Merging the JSON files into a single file makes it easier to search their contents to help with modding.
 
 These scripts allow you to merge all JSON files within a directory (including its subdirectories) into a single output file. They provide two options: JSON output and text output.
 
