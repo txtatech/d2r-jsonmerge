@@ -31,6 +31,8 @@ The text output script copies the byte contents of each JSON file, preserving th
 
 It is recommended to test the scripts on a smaller dataset or use appropriate filtering to merge specific files before attempting to merge a large number of files.
 
+Both scripts may also generate errors which can be ignored and the process will finish executing as intended.
+
 ## Dependency Note
 
 The provided scripts (`jsonmerge_json.py` and `jsonmerge_txt.py`) have no external dependencies or additional packages required. They utilize built-in Python modules, such as `os`, `shutil`, and `json` (only for `json_merge.py`), which are part of the Python Standard Library. 
